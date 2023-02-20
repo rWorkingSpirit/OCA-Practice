@@ -27,6 +27,22 @@ import arrays.loops.ArrayEx; // imports a class from a different package.
  */
 public class BasicsEx 
 {
+	private String sObject = "String is an Object";
+	// Below are primitives
+	private char character = 'a';
+	private byte code = 1;
+	private short isYourPP = 2;
+	private int isANumber = 3;
+	private long timeNoSee = 4;
+	private float ingInThePool = 1.3f;
+	private double doubleD = 1.0;
+	private boolean isThatSo = false;
+	
+	
+	
+	
+	
+	
 	String initializeME;
 	
 	// Initializer block
@@ -45,6 +61,8 @@ public class BasicsEx
 		super(); // we always call super implicit, but now we do it explicit.
 		
 		CommentExamples(); // we can call other methods from here as well.
+		
+		int methodsReturnsInt = this.ReturnMethod(); // we can use(this) to call other methods in this class.
 	}
 	
 	
@@ -84,9 +102,9 @@ public class BasicsEx
 	}
 	
 	
-	public void MethodName()
+	public int ReturnMethod()
 	{
-		
+		return 7;
 	}
 	
 	
