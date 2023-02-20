@@ -95,9 +95,8 @@ public class BasicsEx
 //				+ "is */ correct";
 //		 	System.out.println(thisIsCorrect);
 		 
-		String partOfTheString = "/* They are not part of the string */ ";
+		String partOfTheString = "/* They are part of the string */ ";
 		System.out.println(partOfTheString);
-		
 		
 	}
 	
