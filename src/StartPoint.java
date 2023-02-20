@@ -9,11 +9,12 @@ public class StartPoint
 	// you are allowed to make this final, parameters like String...	String args[]	String[] name	are also allowed
 	public static void main(String[] args)
 	{
-		BasicsEx basicEX = new BasicsEx();
+		BasicsEx basicEX = new BasicsEx(); // When using import.
+		basics.BasicsEx name = new basics.BasicsEx(); // If we do not use import.
 	}
 	
 	// This is a regular method, NOT the start point of a class.
-	public void main() {}
+	public static void main() {}
 	private int main(int a) {return 1;}
 	protected void main(String a, boolean b) {}
 	void main(boolean a, String[] b) {}
